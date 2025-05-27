@@ -227,25 +227,8 @@ python3 task4.py
 Освітні платформи: Feedback системи
 
 Запуск всіх завдань
-Створіть файл all_tasks.py:
-```python
-#!/usr/bin/env python3
-import task1
-import task2  
-import task3
-import task4
-
-if __name__ == "__main__":
-    print("Запуск всіх завдань домашнього завдання #7")
-    print("="*50)
-    
-    task1.main()
-    print("\n" + "="*50)
-    task2.main()
-    print("\n" + "="*50)
-    task3.main()
-    print("\n" + "="*50)
-    task4.main()
+```bash
+python3 all_tasks.py:
 ```
 Або запускайте кожне завдання окремо:
 ```bash
